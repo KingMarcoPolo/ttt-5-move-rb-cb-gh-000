@@ -6,8 +6,7 @@ require_relative '../lib/move.rb'
 puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 
-string_input = gets
-user_input = string_input.to_i
+user_input = gets.to_i
 
 def input_to_index(user_input)
     return board = user_input - 1
