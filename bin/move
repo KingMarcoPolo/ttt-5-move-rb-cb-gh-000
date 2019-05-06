@@ -11,3 +11,5 @@ user_input = gets
 def input_to_index(user_input)
     board = user_input - 1
 end
+
+display_board(board)
