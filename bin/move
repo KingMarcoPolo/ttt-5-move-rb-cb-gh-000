@@ -10,4 +10,5 @@ string_input = gets
 user_input = string_input.to_i
 
 def input_to_index(user_input)
+    return board = user_input - 1
 end
