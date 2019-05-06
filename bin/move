@@ -9,5 +9,5 @@ require_relative '../lib/move.rb'
 user_input = gets
 
 def input_to_index(user_input)
-    return board = user_input - 1
+    board = user_input - 1
 end
