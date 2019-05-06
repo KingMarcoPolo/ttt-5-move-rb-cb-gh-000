@@ -8,8 +8,8 @@ require_relative '../lib/move.rb'
 
 user_input = gets.to_i
 
-def input_to_index(user_input)
-    return board = user_input - 1
-end
+#def input_to_index(user_input)
+    #return board = user_input - 1
+#end
 
-display_board(board)
+#display_board(board)
